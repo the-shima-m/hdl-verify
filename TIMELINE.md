@@ -10,7 +10,7 @@ HDL-Verify is a free and open source Python tool. It checks whether two versions
 
 Together with the tool, the project also releases ArithBench-100. This is a set of 100 reference arithmetic circuits with a correct and verified answer for each one.
 
-The timeline below maps to intended deliverables for each month.
+The timeline below shows the planned deliverables for each month.
 
 ---
 
