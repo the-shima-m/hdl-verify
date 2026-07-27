@@ -12,4 +12,4 @@ from hdl_verify.core import verify
 from hdl_verify.report import VerificationReport
 
 __version__ = "0.1.0"
-__all__ = ["verify", "VerificationReport"]
+__all__ = ["VerificationReport", "verify"]
