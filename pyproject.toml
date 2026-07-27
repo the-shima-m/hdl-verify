@@ -14,6 +14,12 @@ authors = [
   {name = "Shima Mohaghegh"}
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest>=7",
+    "ruff",
+]
+
 [project.scripts]
 hdl-verify = "hdl_verify.cli:main"
 hdl-verify-batch = "hdl_verify.experiment:main"
@@ -30,10 +36,5 @@ target-version = ["py313"]
 ignore = [
     "PLW1510",
     "DTZ005",
-]
-
-[project.optional-dependencies]
-test = [
-    "pytest>=7",
-    "ruff",
+    "UP037",
 ]
