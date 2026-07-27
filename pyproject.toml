@@ -26,6 +26,12 @@ where = ["src"]
 line-length = 88
 target-version = ["py313"]
 
+[tool.ruff.lint]
+ignore = [
+    "PLW1510",
+    "DTZ005",
+]
+
 [project.optional-dependencies]
 test = [
     "pytest>=7",
