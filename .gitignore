@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+run_fingerprint.json
+*.fingerprint.json
+experiments/
+results.csv
+*.fingerprint.json
+dashboard.html

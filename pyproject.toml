@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdl-verify"
+version = "0.1.0"
+description = "Validation and reproducibility toolkit for AI-generated HDL code"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Shima Mohaghegh"}
+]
+
+[project.scripts]
+hdl-verify = "hdl_verify.cli:main"
+hdl-verify-batch = "hdl_verify.experiment:main"
+hdl-verify-dashboard = "hdl_verify.dashboard:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ["py313"]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7",
+    "ruff",
+]

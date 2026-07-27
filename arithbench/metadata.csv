@@ -1,0 +1,6 @@
+filename,operation,bit_width,source,ground_truth,combinational
+adders/adder_4bit.v,addition,4,standard textbook design,"a + b + carry_in = {carry_out, sum}",yes
+adders/adder_8bit.v,addition,8,standard textbook design,"a + b + carry_in = {carry_out, sum}",yes
+adders/adder_16bit.v,addition,16,standard textbook design,"a + b + carry_in = {carry_out, sum}",yes
+multipliers/mult_4bit.v,multiplication,4,standard textbook design,"product = a * b",yes
+subtractors/sub_8bit.v,subtraction,8,standard textbook design,"diff = a - b, borrow_out on a<b",yes
